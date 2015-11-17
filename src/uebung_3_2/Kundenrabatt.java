@@ -45,9 +45,9 @@ public class Kundenrabatt {
 		double loesung = bestellwert * (1-(rabatt*1/100)) ;
 		
 		
-		System.out.println("Der Bestellwert betr‰gt " + bestellwert + " Euro.");
-		System.out.println("Das bisherige Bestellvolumen betr‰gt " + bisherigesKundenBestellvolumen + " Euro.");
-		System.out.println("Der Rabatt betr‰gt " + rabatt + " %.");
+		System.out.println("Der Bestellwert betr√§gt " + bestellwert + " Euro.");
+		System.out.println("Das bisherige Bestellvolumen betr√§gt " + bisherigesKundenBestellvolumen + " Euro.");
+		System.out.println("Der Rabatt betr√§gt " + rabatt + " %.");
 		System.out.println("Bestellwert nach der Rabattierung = " + loesung + " Euro.");
 		
 		
